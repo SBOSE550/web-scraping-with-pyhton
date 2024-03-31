@@ -150,7 +150,7 @@ for x in row_data:
     position = 1
     for item in title_data:
         individual_row.insert(position,item)
-        position += 1
+        
     individual_row_data = individual_row
     # to check the if the number of item is the same as number of column
     #print(individual_row_data)
